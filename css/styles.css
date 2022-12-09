@@ -1,0 +1,138 @@
+/* цвет акцента - #4D5AE5
+белый цвет - #FFFFFF
+цвет шрифта шапки и заголовков - #2E2F42
+текст абзацев - #434455
+лого в футере, цвет кнопок в портфолио, бэк цвет в секции тим, текст в портфолио на фоне - #F4F4FD
+текст в футере - #E7E9FC
+ */
+
+:root {
+  --primary-brand: #4d5ae5;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --primary-white-color: #ffffff;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--text);
+  font-family: Roboto, sans-serif;
+  letter-spacing: -0.015em;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo {
+  color: var(--dark);
+}
+
+/* nav */
+
+span {
+  color: var(--primary-brand);
+}
+
+.site-nav .link {
+  color: var(--darkr);
+}
+
+.site-nav .link:focus {
+    color: var(--primary-brand);
+}
+
+.site-adress .link {
+  color: var(--dark);
+}
+
+/* hero */
+
+.hero-title {
+  color: var(--primary-white-color);
+  background-color: var(--dark);
+}
+
+.hero .button-primary {
+  color: var(--primary-white-color);
+  background-color: var(--primary-brand);
+  border: var(--primary-brand);
+  cursor: pointer;
+}
+
+.button-primary:hover {
+  color: var(--primary-white-color);
+  background-color: var(--primary-brand);
+}
+
+.button-primary:focus {
+  color: var(--primary-white-color);
+  background-color: #404bbf;
+}
+
+/* adventages */
+.advantages .title {
+  color: var(--dark);
+}
+
+/* our work */
+
+.work .title {
+  color: var(--dark);
+}
+
+/* team */
+.team .title {
+  color: var(--dark);
+}
+
+/* footer */
+
+.footer {
+  color: var(--primary-brand);
+  background-color: var(--dark);
+}
+
+.footer .footer-link {
+  color: var(--light);
+}
+
+/* portfolio */
+
+/* button */
+
+.button {
+  color: var(--primary-brand);
+  background-color: var(--light);
+  border: var(--primary-brand);
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--primary-brand);
+}
+
+/* examples */
+
+.examples {
+  color: var(--text);
+}
+.examples .examples-title {
+  color: var(--dark);
+}
+.examples .examples-text {
+  color: var(--light);
+  background-color: var(--primary-brand);
+}
