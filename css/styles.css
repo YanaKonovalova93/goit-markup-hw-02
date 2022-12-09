@@ -21,7 +21,7 @@ body {
   background-color: var(--primary-white-color);
   color: var(--text);
   font-family: Roboto, sans-serif;
-  letter-spacing: -0.015em;
+  letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -30,22 +30,26 @@ a {
   text-decoration: none;
 }
 
-.list {
-  list-style: none;
-}
 
 .logo {
   color: var(--dark);
+  font-family: Raleway, cursive;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-decoration: none; 
 }
 
 /* nav */
 
 span {
   color: var(--primary-brand);
+  
 }
 
 .site-nav .link {
-  color: var(--darkr);
+  color: var(--dark);
 }
 
 .site-nav .link:focus {
@@ -56,6 +60,10 @@ span {
   color: var(--dark);
 }
 
+.list {
+    list-style: none;
+  }
+  
 /* hero */
 
 .hero-title {
