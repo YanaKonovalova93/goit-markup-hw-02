@@ -22,12 +22,12 @@ a {
   text-decoration: none;
 }
 
-button {
-  font-family: inherit;
-}
-
 ul {
   list-style: none;
+}
+
+.button {
+  font-family: inherit;
 }
 
 .visually-hidden {
@@ -54,7 +54,7 @@ ul {
   letter-spacing: 0.03em;
 }
 
-span {
+.span {
   color: var(--primary-brand);
 }
 
