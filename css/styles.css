@@ -110,6 +110,7 @@ ul {
 /* adventages */
 .advantages .title {
   color: var(--dark);
+  font-size: 20px;
 }
 
 /* our work */
@@ -178,7 +179,7 @@ ul {
   color: var(--primary-brand);
   background-color: var(--light);
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -190,6 +191,12 @@ ul {
   background-color: var(--primary-brand);
 }
 
+.site-adress .link:hover,
+.site-adress .link:focus {
+  color: var(--primary-white-color);
+  background-color: var(--primary-brand);
+}
+
 /* examples */
 
 .examples {
@@ -197,4 +204,8 @@ ul {
 }
 .examples .examples-title {
   color: var(--dark);
+}
+
+.examples .card-title {
+  font-size: 20px;
 }
